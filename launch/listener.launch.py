@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
 
-            package='demo_node_py',
+            package='demo_nodes_py',
             executable='listener'
         )
             
